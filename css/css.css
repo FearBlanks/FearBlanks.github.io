@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Share Tech Mono', monospace;
+}
+html,body
+{
+	height: 100%;
+	min-height: 100%;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+a:hover
+{
+	color:#3498db;
+}
+
+header{
+	background: #C39;
+	text-align: center;
+	color: white;
+	padding: 1em;
+}
+.message{
+	padding: 1em 0;
+	text-align: center;
+}
+footer
+{
+	background: black;
+	color: white;
+	text-align: center;
+	padding: 1em;
+}
+.FearBlanks::before{
+	color: #ecf0f1;
+	content: "Powered by ";
+}
+.FearBlanks::after{
+	color: #ecf0f1;
+	content: " 2017 ©"
+}
